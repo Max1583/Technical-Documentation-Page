@@ -69,12 +69,6 @@ h2{
     text-align: center;
 }
 h3:hover{
-    width: fit-content;
-    margin: auto;
-    border-bottom: grey 2px solid ;
-     border-radius: 5px;
-     border-image-source: linear-gradient(to right, #d008ea  0%, #e40767 100%); 
-     border-image-slice: 5; 
      opacity: 0.8; 
 }
 body{
