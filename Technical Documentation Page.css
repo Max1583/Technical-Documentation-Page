@@ -68,9 +68,6 @@ section{
 h2{
     text-align: center;
 }
-h3:hover{
-     opacity: 0.8; 
-}
 body{
     margin-top: 460px;
     width: 90%;
