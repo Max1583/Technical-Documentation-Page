@@ -15,6 +15,7 @@ header h1{
    border: grey 5px solid ;
      border-image-source: linear-gradient(to right, #d008ea  0%, #e40767 100%); 
      border-image-slice: 5;
+     font-size: 30px;
 
 
 }
@@ -94,6 +95,14 @@ button{
         margin-top: 30px;
 
     }
+    header h1{
+        padding: 3px;
+       color: white;
+       margin: -10px auto ;
+         font-size: 20px;
+    
+    
+    }
     body {
       color: white;
       margin-top: 0px;
@@ -106,12 +115,16 @@ button{
     }
     #navbar h3{
         padding-bottom: 5px;
-        line-height: 20px;
+        line-height: 10px;
     }
     #main-doc  {
         text-align: center;
         width: 95%;
         margin-top: 1cm;
+    }
+    #main-doc p{
+        font-size:18px ;
+
     }
     #navbar{
         display: flex;
@@ -157,3 +170,4 @@ button:hover{
 
 
 
+    
