@@ -1,0 +1,160 @@
+html{
+    padding:0px ;
+    margin-top:5px;
+    width: 100%;
+    box-sizing: border-box;
+    color: grey;
+    font-size: 20px;
+    background: black;
+}
+header h1{
+    padding: 5px;
+   color: white;
+   margin: -10px auto ;
+   width: fit-content;
+   border: grey 5px solid ;
+     border-image-source: linear-gradient(to right, #d008ea  0%, #e40767 100%); 
+     border-image-slice: 5;
+
+
+}
+a{
+    text-decoration: none;
+}
+.main-section{
+    margin-top: 5px;
+    border: grey 5px solid ;
+     border-radius: 5px;
+     border-image-source: linear-gradient(to right, #08AEEA  0%, #2AF598 100%); 
+     border-image-slice: 5;
+     padding-bottom: 10px;
+    
+
+     
+     
+}
+section h1{
+    color: teal;
+}
+section{
+    padding: 5px;
+}
+#navbar a{
+    color: whitesmoke;
+    
+    line-height: 50px;
+
+}
+#navbar{
+    overflow: auto;
+    scroll-behavior: smooth;
+    width: 30% ;
+    position:fixed;
+    height: 100%;
+    margin-top: -480px;
+    margin-left: 0px;
+    padding: 10px 10px 10px 10px;
+    width: fit-content;
+    background: back;
+    color: whitesmoke;
+    line-height: 25px;
+    border: grey 2px solid ;
+        border-radius: 5px;
+        border-image-source: linear-gradient(to right,  #d008ea  0%, #e40767 100%); 
+        border-image-slice: 5;
+
+}
+
+h2{
+    text-align: center;
+}
+h3:hover{
+    width: fit-content;
+    margin: auto;
+    border-bottom: grey 2px solid ;
+     border-radius: 5px;
+     border-image-source: linear-gradient(to right, #d008ea  0%, #e40767 100%); 
+     border-image-slice: 5; 
+     opacity: 0.8; 
+}
+body{
+    margin-top: 460px;
+    width: 90%;
+
+}
+
+#main-doc  {
+    text-align: center;
+    width: 70%;
+    float:right;
+    margin-top: -12cm;
+}
+
+
+button{
+    opacity: 0;
+}
+
+
+@media screen and (max-width: 13in) {
+    html{
+        margin-top: 30px;
+
+    }
+    body {
+      color: white;
+      margin-left: 20px;
+
+    }
+    #navbar h3{
+        padding-bottom: 5px;
+        line-height: 10px;
+    }
+    #main-doc  {
+        text-align: center;
+        width: 95%;
+        margin-top: 1cm;
+    }
+    #navbar{
+        display: flex;
+        flex-direction: column;
+       position: static;
+        font-size: 15px;
+        text-align: center;
+        border: grey 10px solid ;
+        border-image-source: linear-gradient(to right, #08AEEA  0%, #2AF598 100%); 
+        border-image-slice: 5;
+        padding: 30px;
+      margin-left:60px;
+    }
+    .navbar{
+        text-align: center;
+    }
+
+   button{
+        margin-top: 10px;
+        margin-bottom: 10px;
+         border-radius: 5px;
+        color:  white;
+        opacity: 1;
+        font-weight: bold;
+        width: 200px;
+        height: 27px;
+        font-size: 15px;
+        box-shadow: 3px 3px rgb(255,255,255,.2);
+        background:orangered;
+        
+
+}
+button:hover{
+    width: 190px;
+    color: orangered;
+    background-color: whitesmoke;
+    opacity: 0.8;
+}
+  }
+
+
+
+
+
